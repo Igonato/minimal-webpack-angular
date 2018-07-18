@@ -19,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/Igonato/minimal-webpack-angular/issues"
   },
-  "homepage": "https://github.com/Igonato/minimal-webpack-angular#readme"
+  "homepage": "https://github.com/Igonato/minimal-webpack-angular#readme",
+  "dependencies": {
+    "@angular/common": "^6.0.9",
+    "@angular/compiler": "^6.0.9",
+    "@angular/core": "^6.0.9",
+    "@angular/platform-browser": "^6.0.9",
+    "@angular/platform-browser-dynamic": "^6.0.9"
+  },
+  "devDependencies": {
+    "@types/webpack": "^4.4.6",
+    "webpack": "^4.16.1"
+  }
 }
