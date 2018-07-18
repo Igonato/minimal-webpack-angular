@@ -50,4 +50,12 @@ config.plugins = [
 ];
 
 
+config.devServer = {
+    contentBase: config.output.path,
+    overlay: {
+        warnings: true,
+        errors: true,
+    },
+};
+
 export default config;
